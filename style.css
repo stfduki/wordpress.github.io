@@ -1,0 +1,386 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+figure,
+p,
+ol,
+ul {
+    margin: 0;
+}
+
+ol[role="list"],
+ul[role="list"] {
+    list-style: none;
+    padding-inline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+img {
+    display: block;
+    max-inline-size: 100%;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    html {
+        font-family: "Roboto", sans-serif;
+    }
+}
+
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.promo {
+    display: block;
+    padding: 39px 0 60px 0;
+    height: 800px;
+    background: url('../img/bg/main_bg.jpeg') center center / cover no-repeat;
+}
+
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_text {
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2.title {
+    margin-top: 20px;
+    color: rgb(249, 191, 59);
+    font-size: 41px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title {
+    color: rgb(249, 191, 59);
+    margin-top: 53px;
+    font-size: 41px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.simple .title_big {
+    color: rgb(255, 255, 255);
+    margin: 20px 0 20px 0;
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.promo_text {
+    margin-top: 22px;
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.promo .promo_text span {
+    color: #FFFF00;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.promo .promo_btn {
+    /* Кнопка */
+    display: block;
+    margin: 0 auto;
+    margin-top: 73px;
+    width: 313px;
+    height: 72px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(0.00deg, rgb(39, 152, 185), rgb(58, 182, 218) 100%);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.more {
+    margin-top: 70px;
+
+}
+
+.more .more_text {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+
+.second {
+    padding: 80px 0 80px;
+    background: rgb(239, 239, 239);
+    /* Задний фон */
+    min-height: 604px;
+}
+
+.second .waiting_header {
+    color: rgb(37, 37, 37);
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.second .waiting_divider {
+    /* Разделитель */
+    margin: 0 auto;
+    margin-top: 18px;
+    background: rgb(249, 191, 59);
+    width: 220px;
+    height: 7px;
+}
+
+.second .waiting_subheader {
+    color: rgb(74, 74, 74);
+    margin-top: 18px;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.second .waiting_wrapper {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second .waiting_wrapper .waiting_item {
+    width: 339px;
+    text-align: center;
+}
+
+.second .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
+
+.second .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 20px;
+    color: rgb(74, 74, 74);
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.optimization {
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+
+.optimization .optimization_header {
+    margin-left: 391px;
+    rgb(41, 156, 189);
+    color: rgb(41, 156, 189);
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.optimization .optimization_text {
+    margin-left: 391px;
+    /* На просторах интернета несчетное количество действующих и даже */
+    color: rgb(74, 74, 74);
+    font-weight: 300px;
+    font-size: 17px;
+}
+
+.optimization .optimization_text span {
+    font-weight: 700;
+}
+
+.optimization .optimization_img {
+    top: -47px;
+    left: -240px;
+    z-index: -1;
+    position: absolute;
+}
+
+.finish {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/bg/second_bg.jpeg') center center / cover no-repeat
+}
+
+.finish .finish_divider {
+    /* Разделитель */
+    margin: 0 auto;
+    margin-top: 18px;
+    background: rgb(249, 191, 59);
+    width: 220px;
+    height: 7px;
+}
+
+.finish .finish_header {
+    color: rgb(239, 239, 239);
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.finish .finish_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+    /* Круг */
+    background: rgb(180, 226, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 100%;
+    width: 118px;
+    height: 118px;
+    left: 670px;
+    right: 1134px;
+    top: 176px;
+    bottom: 156px;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+    color: rgb(239, 239, 239);
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.bonus {
+    background: rgb(239, 239, 239);
+    min-height: 631px;
+}
+
+.bonus .gift_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 86px 0 45px 0;
+}
+
+.bonus .gift_text {
+    color: rgb(37, 37, 37);
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.bonus .gift_btn {
+    /* Кнопка */
+    display: block;
+    margin: 0 auto;
+    margin-top: 73px;
+    width: 313px;
+    height: 72px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(0.00deg, rgb(39, 152, 185), rgb(58, 182, 218) 100%);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.first_webinar {
+    min-height: 433px;
+}
+
+.first_webinar .first_webinar_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 89px auto 0 auto;
+}
+
+.first_webinar .first_webinar_text {
+    color: rgb(37, 37, 37);
+    margin-top: 39px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.first_webinar .first_webinar_date {
+    color: rgb(41, 156, 189);
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.first_webinar .first_webinar_registr {
+    color: rgb(74, 74, 74);
+    margin-top: 25px;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer {
+    background: rgb(26, 26, 26);
+    padding: 57px 0 69px 0;
+}
+
+.footer_block {
+    color: rgb(136, 136, 136);
+    text-align: center;
+    margin: 0 auto;
+    max-width: 407px;
+}
+
+a {
+    color: rgb(136, 136, 136);
+}
